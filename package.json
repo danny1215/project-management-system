@@ -1,0 +1,26 @@
+{
+  "name": "project-management-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node scripts/seedDB.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danny1215/project-management-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danny1215/project-management-system/issues"
+  },
+  "homepage": "https://github.com/danny1215/project-management-system#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "foo": "^1.0.0",
+    "mongoose": "^5.12.13"
+  }
+}

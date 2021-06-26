@@ -23,6 +23,12 @@ export const SidebarData = [
         icon: <IoIcons.IoMdPeople />,
         className: 'nav-text'
     },
+    {
+        title: 'View & Add Projects',
+        path: '/Projects',
+        icon: <IoIcons.IoMdPeople />,
+        className: 'nav-text'
+    },
     // {
     //     title: 'Meet the Devs',
     //     path: '/devs',

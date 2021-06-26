@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
- import axios from "axios";
+import axios from "axios";
 
 export default class CreateTodo extends Component {
 
@@ -8,7 +8,7 @@ export default class CreateTodo extends Component {
         super(props);
 
 
-  this.onChangeFirstName = this.onChangeFirstName.bind(this);
+        this.onChangeFirstName = this.onChangeFirstName.bind(this);
         this.onChangeLastName = this.onChangeLastName.bind(this);
         this.onChangeEmail = this.onChangeEmail.bind(this);
         this.onChangeRole = this.onChangeRole.bind(this);
@@ -16,9 +16,9 @@ export default class CreateTodo extends Component {
 
         this.state = {
             First_Name: "",
-           Last_Name: '',
-          Email: '',
-         Role: false
+            Last_Name: '',
+            Email: '',
+            Role: false
         }
     }
 
@@ -30,13 +30,13 @@ export default class CreateTodo extends Component {
 
     onChangeLastName(e) {
         this.setState({
-           Last_Name: e.target.value
+            Last_Name: e.target.value
         });
     }
 
     onChangeEmail(e) {
         this.setState({
-           Email: e.target.value
+            Email: e.target.value
         });
     }
     onChangeRole(e) {
@@ -53,7 +53,7 @@ export default class CreateTodo extends Component {
         console.log(`Email: ${this.state.Email}`);
         console.log(`Role: ${this.state.Role}`);
         const newTodo = {
-      First_Name: this.state.First_Name,
+            First_Name: this.state.First_Name,
             Last_Name: this.state.Last_Name,
             Email: this.state.Email,
             Rol: this.state.Role
@@ -66,7 +66,7 @@ export default class CreateTodo extends Component {
             First_Name: '',
             Last_Name: '',
             Email: '',
-           Role: '',
+            Role: '',
         })
     }
 
@@ -83,7 +83,7 @@ export default class CreateTodo extends Component {
                             onChange={this.onChangeFirstName}
                         />
                     </div>
-       
+
                     <div className="form-group">
                         <label>Last Name</label>
                         <input type="text"
