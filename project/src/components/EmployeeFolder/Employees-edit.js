@@ -1,4 +1,4 @@
-import Rseact, { Component } from 'react';
+import React, { Component } from 'react';
 import { render } from 'react-dom';
 
 export default class EmployeesEdit extends Component {
